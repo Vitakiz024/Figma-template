@@ -4,7 +4,6 @@
     font-family: Lato;
     margin: 0px;
     padding: 0px;
-    
 }
 body{
     width: 1440px;
@@ -79,7 +78,6 @@ ul{
     font-weight: 400;
     display: flex;
     position: relative;
-
 }
 
 .language{
@@ -115,20 +113,23 @@ ul{
     padding: 15px 30px;
     border-radius: 6px;
 }
+
 .content-main{
     text-align: center;
     margin-top: 140px;
 }
+
 .tittle{
     font-size: 72px; 
 }
+
 .text, .button{
     margin-left: auto;
     margin-right: auto;
 }
+
 .text{
     width: 490px;
-    
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 24px;
