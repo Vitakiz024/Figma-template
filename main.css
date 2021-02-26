@@ -6,27 +6,29 @@
     padding: 0px;
     
 }
+body{
+    width: 1440px;
+}
+
 .wrapper{
     background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(img/fon.svg) no-repeat;
     background-size: 100%;
-    width: 1440px;
     height: 782px;
-   
 }
-
-.top{
+.top, .content-main{
     text-transform: uppercase;
     font-weight: 700;
-    padding-top: 17px;
     padding-left: 200px;
     padding-right: 160px;
-    height: 100px;
-    align-content: center;
-    margin-right: auto;
-    margin-left: auto;
     color: rgb(255, 255, 255);
     position: relative;
 }
+.top{
+    height: 100px;
+    padding-top: 17px;
+
+}
+
 .content{
     display: flex;
     justify-content: space-between;
@@ -38,6 +40,7 @@
     font-size: 18px;
     justify-self: space-between;
 }
+
 .logo::before{
     content: "";
     background: url("img/cloud.svg") no-repeat;
@@ -63,19 +66,21 @@ ul{
 .menu-category:first-child{
     margin-left: 160px;
 }
+
 .menu-category:last-child{
     margin-right: 160px;
 }
+
 .active{
     font-weight: 700;
 }
+
 .top-buttons{
     font-weight: 400;
     display: flex;
     position: relative;
 
 }
-
 
 .language{
     font-weight: 400;
@@ -109,4 +114,36 @@ ul{
     border: 1px solid #fff;
     padding: 15px 30px;
     border-radius: 6px;
+}
+.content-main{
+    text-align: center;
+    margin-top: 140px;
+}
+.tittle{
+    font-size: 72px; 
+}
+.text, .button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+    width: 490px;
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 24px;
+    text-transform: none;
+    font-weight: 500;
+}
+
+.button{
+    border: 1px solid #fff;
+    border-radius: 6px;
+    background: #fff;
+    color: #ED4C5C;
+    width: 65px;
+    height: 17px;
+    padding: 15px 46px;
+    font-weight: 600;
+    font-size: 14px;
 }
