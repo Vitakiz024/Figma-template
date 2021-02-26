@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    font-family: Lato;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.wrapper{
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url(img/fon.svg) no-repeat;
+    background-size: 100%;
+    width: 1440px;
+    height: 782px;
+   
+}
+
+.top{
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 17px;
+    padding-left: 200px;
+    padding-right: 160px;
+    height: 100px;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+}
+
+.logo{
+    font-size: 18px;
+    justify-self: space-between;
+}
+.logo::before{
+    content: "";
+    background: url("img/cloud.svg") no-repeat;
+    margin-left: -30px;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+}
+
+
+ul{
+    display: flex;
+}
+
+.menu-category{
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 400;
+    width: auto;
+    padding-right: 20px;
+}
+
+.menu-category:first-child{
+    margin-left: 160px;
+}
+.menu-category:last-child{
+    margin-right: 160px;
+}
+.active{
+    font-weight: 700;
+}
+.top-buttons{
+    font-weight: 400;
+    display: flex;
+    position: relative;
+
+}
+
+
+.language{
+    font-weight: 400;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.language::before{
+    content: "";
+    background: url("img/flag-usa.svg") no-repeat;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -5px;
+}
+
+.language::after{
+    content: "";
+    background: url("img/pic-down.svg") no-repeat;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.login{
+    margin-left: 30px;
+    margin-top: -17px;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    border-radius: 6px;
+}
